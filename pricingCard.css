@@ -1,0 +1,38 @@
+.white-box {
+  border: 2px solid #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.white-box:hover {
+  border: 2px solid #ffb900;
+}
+.box-head h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-align: center;
+}
+.box-head p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2em;
+}
+.list{
+    padding: 10px 0 0 10px;
+}
+.morebtn {
+  border: none;
+  padding: 20px 0 0;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+.morebtn:hover {
+  color: #ffb900;
+  letter-spacing: 0.05em;
+}
+@media (max-width:769px) {
+    .box-head h1{
+        font-size: 24px;
+    }
+}
